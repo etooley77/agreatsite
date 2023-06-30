@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+.buttonarea {
+    margin: 0px;
+    text-align: center;
+}
+
+#clickme {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid white;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: monospace;
+    z-index: 3;
+    position: fixed;
+    right: 40%;
+    left: 40%;
+    top: 45%;
+    bottom: 45%;
+}
+
+#clickme:hover {
+    background-color: white;
+    color: black;
+}
+
+video {
+    width: 100%;
+    z-index: 1;
+}
+
